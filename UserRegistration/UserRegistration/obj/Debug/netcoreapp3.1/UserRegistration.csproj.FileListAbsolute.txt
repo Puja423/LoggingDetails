@@ -1,0 +1,12 @@
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.exe
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.deps.json
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.runtimeconfig.json
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.runtimeconfig.dev.json
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.dll
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.pdb
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.AssemblyInfoInputs.cache
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.AssemblyInfo.cs
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.csproj.CoreCompileInputs.cache
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.dll
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.pdb
+G:\Learning Git\LoggingDetails\LoggingDetails\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.genruntimeconfig.cache
