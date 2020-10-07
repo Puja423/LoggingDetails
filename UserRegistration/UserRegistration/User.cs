@@ -128,18 +128,28 @@ namespace UserRegistration
             Regex regex = new Regex("^.*[A-Z]+.*$");
             return (regex.IsMatch(Pass));
         }
+        private bool VerifyPassWord3(string pass)
+        {
+            Regex regex = new Regex("^.*[1-9]+.*$");
+            return (regex.IsMatch(pass));
+        }
         public void PassWordVerification()
         {
             Console.Write("Enter the Password :");
             string Pass = Console.ReadLine();
-            if (VerifyPassWord(Pass) && VerifyPassWord2(Pass))
+            if (VerifyPassWord(Pass) && VerifyPassWord2(Pass) && VerifyPassWord3(Pass)) 
             {
                 PassWord = Pass;
                 Console.WriteLine("correct password");
             }
+               
+           
             else
             {
-                Console.WriteLine("your Password is not correc");
+                Console.WriteLine("Password needs to have \n" +
+                    "1. Minimum 8 characters\n" +
+                    "2. At least 1 upper case character\n" +
+                    "3. At least 1 numeric value");
             }
         }
     }
