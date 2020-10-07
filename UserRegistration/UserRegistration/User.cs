@@ -133,11 +133,16 @@ namespace UserRegistration
             Regex regex = new Regex("^.*[1-9]+.*$");
             return (regex.IsMatch(pass));
         }
+        private bool VerifyPassword4(string pass)
+        {
+            Regex regex = new Regex("^[A - Za - z0 - 9] *[!@#$%&*_-][A-Za-z0-9]*$");
+            return (regex.IsMatch(pass));
+        }
         public void PassWordVerification()
         {
             Console.Write("Enter the Password :");
             string Pass = Console.ReadLine();
-            if (VerifyPassWord(Pass) && VerifyPassWord2(Pass) && VerifyPassWord3(Pass)) 
+            if (VerifyPassWord(Pass) && VerifyPassWord2(Pass) && VerifyPassWord3(Pass)&& VerifyPassword4(Pass)) 
             {
                 PassWord = Pass;
                 Console.WriteLine("correct password");
@@ -149,7 +154,8 @@ namespace UserRegistration
                 Console.WriteLine("Password needs to have \n" +
                     "1. Minimum 8 characters\n" +
                     "2. At least 1 upper case character\n" +
-                    "3. At least 1 numeric value");
+                    "3. At least 1 numeric value\n"+
+                    "4. At least 1 numeric character");
             }
         }
     }
