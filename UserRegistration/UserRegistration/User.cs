@@ -158,5 +158,34 @@ namespace UserRegistration
                     "4. At least 1 numeric character");
             }
         }
+        public void VerifiedEmailList()
+        {
+            List<string> emailList = new List<string>();
+            emailList.Add("abc@yahoo.com");
+            emailList.Add("abc-100@yahoo.com");
+            emailList.Add("abc.100@yahoo.com");
+            emailList.Add("abc111@yahoo.com");
+            emailList.Add("abc-100@abc.net");
+            emailList.Add("abc.100@abc.com.au");
+            emailList.Add("abc@1.com");
+            emailList.Add("abc@gmail.com.com");
+            emailList.Add("abc+100@gmail.com");
+
+            
+
+            
+            Regex regex = new Regex("^[a-z0-9-+]+([.][a-z0-9+-]+)?@[a-z0-9]+[.][a-z]{2,}([.][a-z]{2,})?$");
+
+            foreach (string email in emailList)
+            {
+                if (regex.IsMatch(email))
+                    Console.WriteLine(email + "- VALID");
+                else
+                    Console.WriteLine(email + "- INVALID");
+            }
+
+
+        }
+
     }
 }
