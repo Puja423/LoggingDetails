@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace UserRegistration
 {
@@ -8,6 +9,14 @@ namespace UserRegistration
         {
             Console.WriteLine("WelCome To The Registration Process");
             Console.WriteLine("=============================================");
+
+            User user = new User();
+         
+            user.verifyfirstName();
+            user.verifylastName();
+            Console.WriteLine("\nName : " + user.FirstName + " " + user.LastName);
+
         }
+       
     }
 }
